@@ -561,6 +561,9 @@ img {
   .h3 {
     font-size: 26px;
   }
+  .navbar-collapse {
+    justify-content: space-evenly;
+  }
   .section-title {
     margin-bottom: 1rem;
   }
@@ -580,7 +583,6 @@ img {
   .whith-us .highlight-title {
     font-size: 18px;
   }
-
   .selected-hotels {
     padding-top: 0;
   }
@@ -597,5 +599,11 @@ img {
   .footer .footer-nav {
     display: flex;
     justify-content: center;
+  }
+
+  .navbar-toggler[aria-expanded="true"] {
+    .navbar-toggler-icon {
+      background: url("../images/icons/icon-close.svg") no-repeat center center;
+    }
   }
 }
