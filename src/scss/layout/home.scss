@@ -364,6 +364,13 @@ img {
   }
 }
 
+//====== INFO PAGE =======
+.info-page {
+  .container {
+    max-width: 800px;
+  }
+}
+
 //====== FOOTER =======
 .footer {
   padding: 2rem 2rem;
@@ -599,13 +606,18 @@ img {
     margin-top: 0;
   }
 
-  .footer-logo {
-    margin-bottom: 1rem;
+  .footer-logo .logo {
+    max-width: 280px;
+    margin-bottom: 1.5rem;
   }
   .footer-logo,
   .footer .footer-nav {
     display: flex;
     justify-content: center;
+  }
+
+  .footer .footer-nav {
+    flex-direction: column;
   }
 
   .navbar-toggler[aria-expanded="true"] {

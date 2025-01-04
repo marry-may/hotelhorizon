@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+'title': 'HotelHorizon'
+})
+
+<body>
+
+  <div class="wrapper">
+
+    <header class="header navbar-light">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <!-- mobile logo -->
+          <a class="navbar-brand d-lg-none" href="#">
+            <img src="images/horizon-logo.svg" alt="" class="logo">
+          </a>
+          <!-- / mobile logo -->
+
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarText">
+
+
+            <!-- desktop logo -->
+            <a class="navbar-brand d-none d-lg-block" href="index.html">
+              <img src="images/horizon-logo.svg" alt="" class="logo">
+            </a>
+            <!-- /desktop logo -->
+
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="top-hotels.html">TOP Hotels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="casino-hotels.html">Casino Hotels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Contact</a>
+              </li>
+            </ul>
+
+            <a href="contacts.html" type="button" class="btn btn-sm btn-primary">
+              Book Now
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page">
+
+      <!-- SECTION WITH US -->
+      <section class="section info-page">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+
+              <h2 class="h3 section-title">
+                Terms and Conditions
+              </h2>
+
+              <div class="text">
+                <p>Welcome to Hotel Horizon. By accessing or using our website, you agree to comply with the following
+                  terms and conditions. Please read them carefully before proceeding.
+                </p>
+                <p>1. Use of Website. The content on our website is provided for informational purposes only. You agree
+                  to use the website
+                  solely for personal and non-commercial purposes. Unauthorized use of the website, including attempts
+                  to access restricted areas, is strictly prohibited.</p>
+
+                <p>2. Booking and Payments. When making a booking, you agree to provide accurate and complete
+                  information. Payment terms,
+                  cancellation policies, and other conditions will be specified during the booking process.
+                  Non-compliance with payment requirements may result in the cancellation of your reservation.
+                </p>
+
+                <p>
+                  3. Intellectual Property. All content on this website, including text, images, logos, and design
+                  elements, is the property of Hotel Horizon or its licensors. You may not reproduce, distribute, or use
+                  any content without prior written consent.</p>
+
+                <p>
+                  4. Limitation of Liability. Hotel Horizon is not responsible for any direct or indirect damages
+                  resulting from the use or inability to use our website. While we strive to ensure the accuracy of the
+                  information provided, we do not guarantee its completeness or reliability.
+                </p>
+
+                <p>5. Privacy Policy
+                  Your use of the website is also governed by our Privacy Policy, which outlines how we collect, use,
+                  and protect your personal data.</p>
+
+                <p>6. Modifications to Terms. We reserve the right to update or modify these terms and conditions at any
+                  time. Changes will be
+                  posted on this page, and your continued use of the website constitutes acceptance of the revised
+                  terms.</p>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- / SECTION WITH US -->
+    </main>
+
+    @@include('html/footer.html', {})
+
+  </div>
+
+
+  @@include('html/script.html', {})
+
+
+</body>
+
+</html>
